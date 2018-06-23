@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Picturesque landscape scene</caption>
+  <note>Picturesque landscape scene and sunrise above road</note>
+  <place/>
+  <categories>
+    <category value="road"/>
+    <category value="travel"/>
+    <category value="journey"/>
+    <category value="highway"/>
+    <category value="landscape"/>
+    <category value="asphalt"/>
+    <category value="way"/>
+    <category value="nature"/>
+    <category value="horizon"/>
+    <category value="view"/>
+    <category value="transportation"/>
+    <category value="sky"/>
+    <category value="drive"/>
+    <category value="trip"/>
+    <category value="freeway"/>
+    <category value="sun"/>
+    <category value="summer"/>
+    <category value="field"/>
+    <category value="route"/>
+    <category value="rural"/>
+    <category value="speed"/>
+    <category value="motion"/>
+    <category value="nobody"/>
+    <category value="grass"/>
+    <category value="freedom"/>
+    <category value="destination"/>
+    <category value="empty"/>
+    <category value="tree"/>
+    <category value="sunset"/>
+    <category value="weather"/>
+    <category value="perspective"/>
+    <category value="sunrise"/>
+    <category value="scenery"/>
+    <category value="light"/>
+    <category value="green"/>
+    <category value="speedway"/>
+    <category value="traffic"/>
+    <category value="roadway"/>
+    <category value="cloud"/>
+    <category value="blue"/>
+    <category value="forest"/>
+    <category value="transport"/>
+    <category value="country"/>
+    <category value="outdoor"/>
+    <category value="long"/>
+    <category value="bright"/>
+    <category value="dawn"/>
+    <category value="dramatic"/>
+    <category value="sunshine"/>
+    <category value="day"/>
+  </categories>
+</comment>
