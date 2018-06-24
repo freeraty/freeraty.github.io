@@ -1,5 +1,5 @@
 
-var amigavel = false;
+var amigavel = true;
 var rota = ".html";
 
 	if (amigavel == true) {
