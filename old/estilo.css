@@ -1,0 +1,36 @@
+.placa{
+			color: #9f8a8a; border-radius: 20px; left: 42.2%;position: absolute; top: 30%; font-size: 28px; background: white;
+			text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		}
+.sombraBotao{
+            border-radius: 20px; background: white;
+            text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+            position: absolute;
+            width: 70%;
+            left: 15%;
+        }
+		.container-total
+{
+    background-image: url('img/reuniao.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+		
+			#poster{
+			border-style: solid;
+			border-radius: 30px;
+			text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+			}

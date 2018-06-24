@@ -1,0 +1,174 @@
+html ,
+
+body { margin:0; height: 100%;}
+.um { background: #333; 
+	color: white; 
+	padding: 50px 20px; 
+  	height: 100%;                        /* para falta de suporte */  
+  	height: -webkit-calc(100% - 100px);  /* para Chrome */
+    height: -moz-calc(100% - 100px);     /* para Firefox */
+  	height: calc(100% - 100px);          /* para suporte nativo */
+  	
+  	
+ }
+
+#conteudoGeral
+			{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				/*border-style: solid;
+				border-color: red;*/
+				min-height: 100%;
+				background-image: url('../img/reuniao.jpg');
+    			background-repeat: no-repeat;
+    			background-size:100%;
+    			
+    			z-index: 9999;
+			}
+
+#navbarResp
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0%;
+			z-index: 9999;
+
+
+
+		}
+
+
+.imagemCentral{
+	position: absolute;
+	height: 60%;
+	width: 50%;
+	left: 25%;
+	border-radius: 30px;
+	
+	
+
+	
+   background: url(../img/rend/poster.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+ 
+	
+}
+
+#navbarResp2
+		{
+			width: 15%;
+			height: 15%;
+			background-color: green;
+			position: absolute;
+			right: 0%;
+			top: 0%;
+		}
+
+
+#conteudoArea
+
+		{
+			width: 100%;
+			height: 80%;
+			top: 10%;
+			position: absolute;
+		}
+
+#conteudoFilho
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: #ccc;
+			z-index: 9999;
+		}
+#placaSombra
+		{
+			position: absolute;
+			bottom: 25%;
+			left: 33%;
+			width: 35%;
+			height: 12.5%;
+			
+			z-index: 9990;
+		}
+
+
+#botaoEmpresa
+		{
+			position: absolute;
+			bottom: 0%;
+			left: 0%;
+			width: 50%;
+			height: 35%;
+			
+			z-index: 9999;
+		}
+
+#botaoFreelancer
+		{
+			position: absolute;
+			bottom: 0%;
+			right: 0%;
+			width: 50%;
+			height: 35%;
+			
+			z-index: 9999;
+		}
+
+
+#conteudoFilho2
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: blue;
+			bottom: 0%;
+		}
+
+#logo
+				{
+					position: absolute; /* Essas configurações alinham objeto no meio da tela */
+					left: 44.5%;
+					top: 20%;
+					height: auto;
+					width: auto;
+					
+
+						margin-top:-50px;
+						margin-left:-50px;
+						z-index: 9998;
+					
+				}
+	
+#beta
+				{
+					position: absolute; /* Essas configurações alinham objeto no meio da tela */
+					left: 34.5%;
+					top: 60%;
+					height: auto;
+					width: auto;		
+
+						margin-top:-50px;
+						margin-left:-50px;
+						z-index: 9998;
+						color: #9f8a8a; border-radius: 20px; font-size: 3ex; background: white;
+					
+				}
+#footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+	width: 100%;
+	height: 7%;
+	z-index: 9999;
+	font-size: 12px;
+	}

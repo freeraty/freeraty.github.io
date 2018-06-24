@@ -1,0 +1,63 @@
+hr{
+    opacity: 0.0;
+}
+
+.sombra{
+    text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.sombraBotao{
+    text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 20px;
+}
+.placa{
+			color: #9f8a8a; border-radius: 20px; font-size: 3ex; background: white;
+			text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		}
+.sombraBotao{
+            border-radius: 20px; background: white;
+            text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+            position: absolute;
+            width: 70%;
+            bottom: 10%;
+            left: 15%;
+            z-index: 1990;
+        }
+		.container-total
+{
+    background-image: url('../img/reuniao.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+		
+			#poster{
+			border-style: solid;
+			border-radius: 30px;
+			text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+			}
+.minilogo{
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    background-image: url('../img/minilogo.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-size: cover;
+}
+

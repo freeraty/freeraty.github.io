@@ -1,0 +1,77 @@
+html ,
+
+body { margin:0; height: 100%;}
+.um { background: #333; 
+	color: white; 
+	padding: 50px 20px; 
+  	height: 100%;                        /* para falta de suporte */  
+  	height: -webkit-calc(100% - 100px);  /* para Chrome */
+    height: -moz-calc(100% - 100px);     /* para Firefox */
+  	height: calc(100% - 100px);          /* para suporte nativo */
+  	
+  	
+ }
+
+#containerGeral
+			{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				border-style: solid;
+				border-color: red;
+				background-color: yellow;
+				min-height: 100%;
+			}
+
+#caixaTeste
+		{
+			width: 15%;
+			height: 15%;
+			background-color: blue;
+			position: absolute;
+			top: 0%;
+		}
+
+#caixaTeste2
+		{
+			width: 15%;
+			height: 15%;
+			background-color: green;
+			position: absolute;
+			right: 0%;
+			top: 0%;
+		}
+
+
+#containerTeste
+
+		{
+			width: 40%;
+			height: 40%;
+			border-style: solid;
+			border-color: red;
+			background-color: green;
+
+			bottom: 30%;
+			position: absolute;
+		}
+
+#containerFilho
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: #ccc;
+		}
+
+
+#containerFilho2
+		{
+			position: absolute;
+			right: 0%;
+			width: 65%;
+			height: 65%;
+			background-color: blue;
+			bottom: 0%;
+		}
