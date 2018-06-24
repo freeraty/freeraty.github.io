@@ -1,4 +1,4 @@
-
+//
 var amigavel = false;
 var rota = ".html";
 
