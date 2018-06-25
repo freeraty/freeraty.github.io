@@ -24,7 +24,7 @@ var online = navigator.onLine;
     console.log(online);
 
 
-var rota = ".html";
+var rota = "" //".html"; // Forçando urls amigáveis até solucionar problemas coma a funçao ping acima
 
 	if (amigavel == true) {
 		var rota = "";
