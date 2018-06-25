@@ -12,7 +12,7 @@
     <title></title>
   </head>
   <body>
-    <div id="conteudoGeral" >
+    <div id="paginasGeral" >
       <div id="navbarResp">
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -29,25 +29,19 @@
       </div>
       <hr>
       <section id="conteudoArea">
-        <div id="botaoEmpresa" onclick="vaiPara('souEmpresa')"> 
-          <button class="btn btn-primary" style="position: absolute; right: 15px;">Sou empresa</button>         
-        </div>
-        <div id="botaoFreelancer" onclick="vaiPara('souFreelancer')">
-          <button class="btn btn-success" style="position: absolute; left: 15px;">Sou freelancer</button>
-        </div>
-        <div id="placaSombra" class="sombraBotao">
-        </div>
-        <center>
-          <div class="imagemCentral" class="sombraBotao">
-            <!--
-              <img src="img/rend/poster.png" width="150%" height="150%" id="poster" style="border-style: none;">
-              
-               -->
-          </div>
-          <br>
-          <p></p>
-        </center>
-        </center>
+              <div class="jumbotron" style="text-shadow: 5px 5px 5px rbga(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);">
+              <h1>Políticas de uso</h1>
+       <div id="politicasDeUso">
+         
+       </div>
+        <hr>
+         <button class="btn btn-primary" onclick="vaiPara('cadastrarEmpresa');">Entendi! Quero cadastrar um projeto</button>
+         <hr>
+         <button class="btn btn-success" onclick="vaiPara('cadastrarFreelancer');">Entendi! Quero receber trabalhos freelancer</button> 
+            </div>
+
+             
       </section>
       <div id="footer">
         <footer>
@@ -64,6 +58,7 @@
     </div>
     <script type="text/javascript">
       $( "#packMenu" ).load( "includes/menu.html" );
+      $( "#politicasDeUso" ).load( "includes/politicasDeUso.html" );
     </script>
   </body>
 </html>
