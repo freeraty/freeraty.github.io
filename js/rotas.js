@@ -3,6 +3,8 @@ var online = navigator.onLine; // true ou false, (há, não há conexão à inte
 if(online) {
     // efetuar pedido ajax
 }
+var online = navigator.onLine;
+console.log(online);
 
 // verifica se página responde
 
@@ -20,11 +22,10 @@ if(online) {
 
  ping();
 
-var online = navigator.onLine;
-    console.log(online);
 
 
-var rota = "" //".html"; // Forçando urls amigáveis até solucionar problemas coma a funçao ping acima
+
+var rota = ".html" //".html"; // Forçando urls amigáveis até solucionar problemas coma a funçao ping acima
 
 	if (amigavel == true) {
 		var rota = "";
